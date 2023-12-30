@@ -1,0 +1,135 @@
+.foodMenueContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+.foodMenuTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foodMenuTitle .title h3{
+    font-size: 45px;
+    font-weight: 400;
+    color: rgb(66, 66, 66);
+}
+.foodCategories{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.foodCategory{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+    margin: 10px 0;
+}
+.foodCategoryTitle span{
+    font-size: 16px;
+}
+.foodCategoryTitle span:hover{
+    color: rgb(255, 208, 0);
+}
+.foods{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+.food{
+    border: 1px solid rgb(219, 219, 219);
+    width: 320px;
+    height: 400px;
+    margin: 5px;
+    transition: all .2s ease;
+}
+.food:hover,.foodImage img{
+    opacity: .6;
+}
+.foodImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.foodImage img{
+    width: 200px;
+    height: 220px;
+    opacity: 1;
+}
+.foodTitle h4{
+    padding: 0 50px;
+    font-weight: 400;
+    color:rgb(39, 39, 39);
+    font-size: 20px;
+}
+.foodPrice p{
+    padding: 0 48px;
+    color: rgb(255, 187, 0);
+    font-size: 29px;
+    font-weight: 500;
+}
+.foodExplaination{
+    padding: 0px 48px;
+    margin-top: -13px;
+}
+.foodDetail{
+    margin-top: -25px;
+}
+.foodExplaination span{
+    font-size: 10px;
+    color: rgb(116, 116, 116);
+}
+.foodButton{
+    display: flex;
+    justify-content: center;
+    margin: 6px;
+}
+.foodButton button{
+    border: none;
+    width: 160px;
+    height: 31px;
+    font-size: 11px;
+    font-weight: 500;
+    border-radius: 20px;
+    background-color: rgb(255, 166, 32);
+    transition: all .2s linear;
+}
+.foodButton button:hover{
+    background-color:rgb(103, 194, 0);
+}
+.highlight{
+    color: rgb(255, 166, 32);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* //////media-query///////// */
+@media(max-width:768px) {
+    .foodCategoryTitle span{
+        font-size: 13px!important;
+    }
+    .foods{
+        display: block;
+    }
+    .food{
+        text-align: center;
+        margin-top: 10px;
+        width: 450px;
+    }
+}

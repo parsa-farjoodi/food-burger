@@ -1,0 +1,171 @@
+.aboutSection {
+    margin: 25px 0;
+}
+
+.about1 {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.about1Image {
+    width: 50%;
+}
+
+.about1Image img {
+    width: 700px;
+    height: 600px;
+}
+
+.about1Detail {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    margin-top: 50px;
+}
+
+.about1DetailTitle {
+    display: flex;
+    justify-content: center;
+}
+
+.about1DetailTitle h2 {
+    font-size: 50px;
+    font-weight: 400;
+    color: rgb(87, 86, 86);
+}
+
+.about1Star {
+    display: flex;
+    justify-content: center;
+}
+
+.starIcon {
+    font-size: 15px !important;
+    color: rgb(223, 164, 4);
+}
+
+.about1Explaination {
+    display: flex;
+    justify-content: center;
+    margin: 20px 110px;
+}
+
+.about1Explaination p {
+    color: rgb(133, 132, 132);
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 2.5;
+}
+
+.about1Options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.option {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.optionIcon {
+    display: flex;
+    justify-content: center;
+}
+
+.option span {
+    color: rgb(133, 132, 132);
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.about2 {
+    flex: 1;
+}
+
+.about2Section {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.about2Image {
+    display: flex;
+    justify-content: center;
+}
+.about2Price {
+    display: flex;
+}
+
+.about2Price span {
+    line-height: 3;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.about2Price h4 {
+    font-size: 40px;
+    font-weight: 400;
+    color: rgb(223, 164, 4);
+}
+
+.about2Price p {
+    color: rgb(223, 164, 4);
+    line-height: 4;
+}
+.about2Title h2 {
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(87, 86, 86);
+}
+.about2Explanation p {
+    color: rgb(133, 132, 132);
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 2;
+}
+.aboutLine{
+    display: none;
+}
+
+
+
+
+
+
+/* ////////media-query///////// */
+@media(max-width:768px) {
+    .aboutSection {
+        margin-top: -300px !important;
+    }
+
+    .about1 {
+        display: block;
+        margin: 0;
+    }
+
+    .about1Image img {
+        width: 340px;
+        height: 300px;
+    }
+
+    .about1Explaination {
+        margin: 0 10px;
+    }
+
+    .about1DetailTitle h2 {
+        font-size: 40px;
+    }
+
+    .about1Explaination p {
+        font-size: 13px;
+    }
+    .about2Section{
+        display: block;
+    }
+    .aboutLine{
+        display: block;
+    }
+}

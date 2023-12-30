@@ -1,0 +1,85 @@
+.banner {
+    height: 110vh;
+    margin-top: -20px;
+    margin-bottom: 10px;
+}
+
+.bannerDetail {
+    padding: 100px;
+}
+
+.detail h3,
+p,
+button {
+    color: white;
+}
+
+.detail h3 {
+    font-size: 4rem;
+}
+
+.detail {
+    margin-top: -44px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.order {
+    background-color: rgb(247, 168, 51);
+    width: 180px;
+    height: 45px;
+    border: none;
+    border-radius: 23px;
+    padding: 10px;
+    font-size: 13px;
+    font-weight: 600;
+    transition: all .2s linear;
+    outline: none;
+}
+
+.order:hover {
+    background-color: white;
+    color: rgb(247, 168, 51);
+}
+
+
+
+@media(max-width:768px) {
+    .banner {
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .bannerDetail {
+        padding: 10px;
+    }
+
+    .bannerLogo img {
+        width: 100px;
+    }
+
+    .detail {
+        margin-top: -10px;
+    }
+
+    .detail h3 {
+        font-size: 1rem;
+    }
+
+    .detail .explaination {
+        width: 100px;
+    }
+
+    .detail p {
+        font-size: 12px;
+    }
+
+    .order {
+        height: 25px;
+        width: 120px;
+        font-size: 10px;
+        padding: 6px 2px;
+    }
+}

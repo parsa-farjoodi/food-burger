@@ -1,0 +1,89 @@
+.contactsContainer{
+    display: flex;
+    justify-content: space-around;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 70px 10px;
+}
+.signUpTitle h3, .contactTitle h3{
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(49, 49, 49);
+}
+.signUpDescription p{
+    color: rgb(173, 173, 173);
+}
+.signUpInput input {
+    border-radius: 15px;
+    border: 1px solid rgb(167, 166, 166);
+    width: 405px;
+    height: 42px;
+    padding: 2px 20px;
+    font-size: 12px;
+}
+.signUpIcon{
+    margin: 20px 0;
+}
+.comunications{
+    display: flex;
+    flex-direction: column;
+}
+.locationContainer, .phoneContainer, .timeContainer, .mailContainer{
+    display: flex;
+    margin: 8px 0;
+}
+.location p, .phone p, .time p, .mail p{
+    color: rgb(173, 173, 173);
+}
+.locationContainer .locationIcon, .phoneIcon, .timeIcon, .mailIcon{
+    color: rgb(255, 187, 0);
+    font-size: 35px!important;
+    margin: 0 14px;
+}
+.phone p{
+    color: #5a5959;
+    font-size: 28px;
+    font-weight: 500!important;
+}
+.instagramPhotos{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 20px;
+}
+.photo{
+    width: 90px;
+    height: 90px;
+    margin: 10px;
+}
+.photo img{
+    width: 90px;
+    height: 90px;
+}
+
+
+
+
+/* /////////media-query////// */
+@media(max-width:768px){
+    .contactsContainer{
+        display: block;
+        margin-top: 950px;
+    }
+    .instagramPhotos{
+        justify-content: space-around;
+    }
+    .photo{
+        width: 120px;
+        height: 120px;
+        margin: 10px;
+    }
+    .photo img{
+        width: 130px;
+        height: 130px;
+    }
+}

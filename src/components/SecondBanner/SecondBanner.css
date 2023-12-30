@@ -1,0 +1,151 @@
+.secondBanner{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.bannerItem1{
+    width: 290px;
+    height: 600px;
+    position: relative;
+    z-index: -1;
+}
+.bannerItem1 figcaption{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    left: 55px;
+    bottom: 124px;
+}
+.bannerItem1 figcaption h4{
+    text-align: center;
+    color: rgb(63, 63, 63);
+    font-size: 40px;
+    font-weight: 400;
+}
+.bannerItem1 figcaption span{
+    font-size: 17px;
+    color: rgb(68, 68, 68);
+    font-weight: 500;
+}
+.bannerItem1 img{
+    width: 290px;
+    height: 600px;
+    object-fit: cover;
+}
+.bannerItem2{
+    width: 700px;
+    height: 600px;
+    position: relative;
+    z-index: -1;
+}
+.bannerItem2 figcaption{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    left: 180px;
+    bottom: 230px;
+}
+.bannerItem2 figcaption h4{
+    text-align: center;
+    color: rgb(63, 63, 63);
+    font-size: 40px;
+    font-weight: 400;
+}
+.bannerItem2 figcaption h3{
+    color: rgb(48, 48, 48);
+    font-size: 53px;
+    font-weight: 500;
+}
+.bannerItem2 figcaption span{
+    text-align: center;
+    color: rgb(129, 129, 129);
+}
+.bannerItem2 img{
+    width: 700px;
+    height: 600px;
+    object-fit: cover;
+}
+.bannerItem3{
+    width: 290px;
+    height: 600px;
+    position: relative;
+    z-index: -1;
+}
+.bannerItem3 figcaption{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    right: 40px;
+    top: 135px;
+}
+.bannerItem3 figcaption h4{
+    text-align: center;
+    color: rgb(63, 63, 63);
+    font-size: 32px;
+    font-weight: 400;
+}
+.bannerItem3 img{
+    width: 290px;
+    height: 600px;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+@media(max-width:768px) {
+    .secondBanner{
+        display: block;
+    }
+    .bannerItem1{
+        width: 460px;
+        height: 500px;
+        margin: 10px 0;
+    }
+    .bannerItem1 figcaption{
+        left: 150px;
+    }
+    .bannerItem1 img{
+        width: 460px;
+        height: 500px;
+    }
+    .bannerItem2{
+        width: 400px;
+        height: 500px;
+    }
+    .bannerItem2 figcaption{
+        left: 110px;
+    }
+    .bannerItem2 img{
+        width: 460px;
+        height: 500px;
+        object-fit: contain;
+    }
+    .bannerItem2 figcaption h4{
+        font-size: 33px;
+    }
+    .bannerItem2 figcaption h3{
+        font-size: 25px;
+    }
+    .bannerItem3{
+        width: 460px;
+        height: 500px;
+    }
+    .bannerItem3 img{
+        width: 460px;
+        height: 500px;
+    }
+    .bannerItem3 figcaption{
+        top: 88px;
+        right: 144px;
+    }
+
+}

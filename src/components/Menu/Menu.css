@@ -1,0 +1,140 @@
+.mainMenu {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    width: 100%;
+    height: 55px;
+    padding: 16px 0;
+}
+
+.mainMenu ul {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    color: rgb(104, 104, 104);
+}
+
+.mainMenu ul li:hover {
+    color: rgb(247, 168, 51);
+}
+
+.mainMenu ul li {
+    list-style: none;
+    padding: 0 20px;
+    transition: all .2s linear;
+}
+
+.mainMenu .medias {
+    width: 448px;
+    display: flex;
+    justify-content: center;
+    margin: 0 27px;
+    transition: all .2s linear;
+}
+
+.facebookIcon,
+.instagramIcon,
+.pizzaIcon {
+    margin: 0 15px;
+    font-size: 20px !important;
+    cursor: pointer;
+    color: rgb(104, 104, 104);
+}
+
+.pizzaIcon:hover {
+    color: rgb(247, 168, 51);
+}
+
+.instagramIcon:hover {
+    color: rgb(247, 168, 51);
+}
+
+.facebookIcon:hover {
+    color: rgb(247, 168, 51);
+}
+
+.callAndLocation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 65px 0;
+}
+
+.callAndLocation .call,
+.location {
+    display: flex;
+    justify-content: space-around;
+}
+
+.callIcon,
+.locationIcon {
+    margin: -5px 10px;
+}
+
+#call,
+#location {
+    color: rgb(247, 168, 51);
+    font-size: 22px;
+}
+
+.mainLogo {
+    margin-top: -14px;
+}
+
+.callNumber a {
+    text-decoration: none;
+    color: rgb(104, 104, 104);
+    transition: all .2s linear;
+}
+
+.callNumber a:hover {
+    color: rgb(247, 168, 51);
+}
+
+.active {
+    color: rgb(247, 168, 51);
+}
+
+
+
+
+
+
+
+
+/* ///////media-query////// */
+@media(max-width: 768px) {
+    .mainMenu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left:-25px;
+    }
+
+    .mainMenu ul {
+        font-size: 11px;
+        font-weight: 400;
+        text-align: center;
+        margin: 20px;
+    }
+
+    .mainMenu .medias {
+        display: none;
+    }
+    .call{
+        display: none!important;
+    }
+    .location{
+        display: none;
+    }
+    .callAndLocation{
+        justify-content: center;
+    }
+    .mainLogo img{
+        height: 50px!important;
+    }
+}
